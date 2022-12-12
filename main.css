@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('fonts/SFProText-Regular.woff2') format('woff2'),
+      url('fonts/SFProText-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('fonts/SFProDisplay-Regular.woff2') format('woff2'),
+      url('fonts/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.S-700 { font-family: "SF Pro Display"; font-weight: bold; }
+
+.S-400 { font-family: "SF Pro Display"; font-weight: 400; }
+
+.SHARP-700 { font-family: "SF Pro Text"; font-weight: bold; }
+
+.SHARP-500 { font-family: "SF Pro Text"; font-weight: 400; }
+
+body {
+  background: #ECE9E6;
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+}
+
+#EMAIL {
+  text-align-last: center;
+}
+
+.S0, .S2, .S3, .S4, .COLORS-13, .COLORS-13-PRO, .CAPACITY-13, .CAPACITY-13-PRO, .SUMMARY-13, .SUMMARY-13-PRO {
+  display: none;
+}
+
+small {
+  font-size: 60% !important;
+}
+
+.text-shadow {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.10);
+}
+
+.text-shadow-md {
+    text-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.text-shadow-lg {
+  text-shadow: 0 15px 30px rgba(0,0,0,0.2), 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.text-shadow-none {
+  text-shadow: none;
+}
+ 
+ input[type="radio"] + label span {
+    transition: background .2s,
+    transform .2s;
+ }
+ 
+ input[type="radio"] + label span:hover,
+ input[type="radio"] + label:hover span{
+   transform: scale(1.2);
+ } 
+ 
+ input[type="radio"]:checked + label span {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 0px 2px white inset;
+ }
+
+ input[id="radio1"]:checked + label span { /* IPHONE 13 PINK */
+  background-color: rgb(251,226,221);
+ }
+
+ input[id="radio2"]:checked + label span { /* IPHONE 13 BLUE */
+  background-color: rgb(68,119,145);
+ }
+
+ input[id="radio3"]:checked + label span { /* IPHONE 13 MIDNIGHT */
+  background-color: rgb(67,72,78);
+ }
+
+ input[id="radio4"]:checked + label span { /* IPHONE 13 STARLIGHT */
+  background-color: rgb(250,247,245);
+ }
+
+ input[id="radio5"]:checked + label span { /* IPHONE 13 PRODUCT RED */
+  background-color: rgb(199,35,51);
+ }
+
+ input[id="radio6"]:checked + label span { /* IPHONE 13 PRO SIERRA BLUE */
+  background-color: rgb(174,199,220);
+ }
+
+ input[id="radio7"]:checked + label span { /* IPHONE 13 PRO SILVER */
+  background-color: rgb(242,243,238);
+ }
+
+ input[id="radio8"]:checked + label span { /* IPHONE 13 PRO GOLD */
+  background-color: rgb(250,233,211);
+ }
+
+ input[id="radio9"]:checked + label span { /* IPHONE 13 PRO GRAPHITE */
+  background-color: rgb(99,98,95);
+ }
+ 
+ input[type="radio"]:checked + label{
+    color: black;
+ }
